@@ -250,10 +250,6 @@ compileTestKotlin {
 //}
 
 
-//build {
-//    dependsOn(jib)
-//}
-
 
 
 
