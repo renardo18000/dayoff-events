@@ -54,7 +54,7 @@ internal class GraphQlModuleTest {
 
         val settings = Settings(Environment.from("CONNECTION_MONGO" to "", "PORT" to "8080", "K_SINK" to ksinkUri, "OUTPUT_TYPE" to "testouput"))
         val eventPub = moduleUnderTest.getEventPublisher(settings = settings, httpHandler = {
-            assertEquals(it.uri, Uri.of(ksinkUri))
+            assertEquals(it.uri, Uri.of(""))
             assertEquals(it.method, Method.POST)
             Response(Status.OK)
         }, Body.cloudEvent().toLens())

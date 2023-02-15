@@ -138,17 +138,18 @@ graalvmNative {
 sonarqube {
     properties {
         property "sonar.sources", "src/main/kotlin"
+
     }
 }
 
-
-shadowJar {
-    archiveBaseName.set(project.name)
-    archiveClassifier.set(null)
-    archiveVersion.set(null)
-    mergeServiceFiles()
-
-}
+//
+//shadowJar {
+//    archiveBaseName.set(project.name)
+//    archiveClassifier.set(null)
+//    archiveVersion.set(null)
+//    mergeServiceFiles()
+//
+//}
 
 //
 //if (!project.hasProperty "jvmAtf") {
@@ -209,7 +210,13 @@ shadowJar {
 //
 //}
 
-
+test {
+    useJUnitPlatform()
+    maxHeapSize = '1G'
+    testLogging {
+        events "passed"
+    }
+}
 
 compileKotlin {
     kotlinOptions {
