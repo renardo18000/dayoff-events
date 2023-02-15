@@ -21,7 +21,7 @@ class SettingsModule
 class Settings(environment: Environment) {
     val mongoConnectionUrl = EnvironmentKey.string().defaulted(name = "CONNECTION_MONGO", CONNECTION_MONGO)(environment)
     val serverPort: Int = EnvironmentKey.int().defaulted(name = "PORT", 8080)(environment)
-    val brokerUrl: Uri = EnvironmentKey.uri().required(name = "K_SINK")(environment)
+//    val brokerUrl: Uri = EnvironmentKey.uri().required(name = "K_SINK")(environment)
     val outputType: String = EnvironmentKey.string().required(name = "OUTPUT_TYPE")(environment)
 
 }
