@@ -24,6 +24,7 @@ import org.http4k.lens.cloudEvent
 import org.http4k.routing.RoutingHttpHandler
 import org.http4k.routing.bind
 import org.http4k.routing.routes
+import org.koin.core.annotation.ComponentScan
 import org.koin.core.annotation.Module
 import org.koin.core.annotation.Named
 import org.koin.core.annotation.Single
@@ -50,7 +51,7 @@ class EventPublisher(private val settings: Settings, private val httpHandler: Ht
 
 
 
-@Module
+@Module @ComponentScan("com.simon.service")
 class GraphQlModule {
     @Single
     fun getEventPublisher(settings: Settings,
