@@ -26,9 +26,9 @@ spec:
         - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           imagePullSecrets:
-          {{- range $pval := .Values.jx.imagePullSecrets }}
+    {{- range $pval := .Values.jx.imagePullSecrets }}
             - name: {{ quote $pval }}
-          {{- end }}
+    {{- end }}
           env:
           - name: VERSION
             value: {{ .Chart.Version }}
