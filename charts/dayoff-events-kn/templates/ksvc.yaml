@@ -22,13 +22,14 @@ spec:
 {{ toYaml .Values.podsLabels | indent 8 }}
 {{- end }}
     spec:
+      imagePullSecrets:
+    {{- range $pval := .Values.jx.imagePullSecrets }}
+      - name: {{ quote $pval }}
+    {{- end }}
       containers:
         - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          imagePullSecrets:
-    {{- range $pval := .Values.jx.imagePullSecrets }}
-            - name: {{ quote $pval }}
-    {{- end }}
+
           env:
           - name: VERSION
             value: {{ .Chart.Version }}
