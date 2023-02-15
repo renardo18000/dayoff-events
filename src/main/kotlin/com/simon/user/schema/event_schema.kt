@@ -45,7 +45,7 @@ val dataLens = Jackson.cloudEventDataLens<GraphQLRequest>()
 
 class EventPublisher(private val settings: Settings, private val httpHandler: HttpHandler, private val requestLens: BiDiBodyLens<CloudEvent>) {
 
-    operator fun invoke(ce: CloudEvent) = httpHandler(Request(Method.POST, settings.brokerUrl).with(requestLens.of(ce)))
+    operator fun invoke(ce: CloudEvent) = httpHandler(Request(Method.POST, "").with(requestLens.of(ce)))
 }
 
 
@@ -134,7 +134,7 @@ class GraphQlModule {
     fun getGraphQlCloudEventProcessor(eventPublisher: EventPublisher, graphqlSchema: Schema, scope: CoroutineScope, settings: Settings, requestLens: BiDiBodyLens<CloudEvent>) =
         { req: Request ->
 
-            Logger.getLogger("handler").info("K_SINK is : ${settings.brokerUrl}")
+//            Logger.getLogger("handler").info("K_SINK is : ${settings.brokerUrl}")
             Logger.getLogger("handler").info("$req")
             val statusResp: Status = Status.OK
 
