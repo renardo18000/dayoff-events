@@ -25,12 +25,16 @@ spec:
       containers:
         - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          imagePullSecrets:
+          {{- range $pval := .Values.jx.imagePullSecrets }}
+            - name: {{ quote $pval }}
           env:
           - name: VERSION
             value: {{ .Chart.Version }}
 {{- range $pkey, $pval := .Values.env }}
           - name: {{ $pkey }}
             value: {{ quote $pval }}
+{{- end }}
 {{- end }}
           livenessProbe:
             httpGet:
