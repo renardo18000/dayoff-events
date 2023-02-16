@@ -14,7 +14,7 @@ spec:
           image: uses:jenkins-x/jx3-pipeline-catalog/tasks/gradle/pullrequest.yaml@versionStream
           name: ""
           resources:
-            # override limits for all containers here
+            # override limits for all containers here.
             limits: {}
           workingDir: /workspace/source
         steps:
