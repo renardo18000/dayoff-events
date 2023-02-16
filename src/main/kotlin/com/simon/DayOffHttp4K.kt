@@ -30,7 +30,7 @@ class EventsApplication : KoinComponent {
 
 fun main() {
     // this starts the apps with DI
-    // made with koin
+    // made with koin.
     startKoin {
         modules(GraphQlModule().module)
         modules(SettingsModule().module)
