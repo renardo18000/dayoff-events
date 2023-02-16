@@ -29,6 +29,7 @@ spec:
               memory: 512Mi
         - name: build-gradle-build
           resources: {}
+          # add test
         - name: check-gradle-check
           resources: { }
         - name: check-registry
