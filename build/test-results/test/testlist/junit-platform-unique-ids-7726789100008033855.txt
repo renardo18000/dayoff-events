@@ -1,0 +1,7 @@
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:provideClient()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:provideSchema()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:provideScope()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:getGraphQlCloudEventProcessor()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:provideHttpGraphqlRequestHandler()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:provideGraphqlApp()]
+[engine:junit-jupiter]/[class:com.simon.user.schema.GraphQlModuleTest]/[method:getEventPublisher()]

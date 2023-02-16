@@ -1,0 +1,574 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"
+},
+{
+  "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Lsun.security.pkcs.SignerInfo;"
+},
+{
+  "name":"com.apurebase.kgraphql.schema.directive.DirectiveLocation"
+},
+{
+  "name":"com.apurebase.kgraphql.schema.directive.DirectiveResult"
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.TypeKind"
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__Described",
+  "methods":[
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__Directive",
+  "methods":[
+    {"name":"getArgs","parameterTypes":[] }, 
+    {"name":"getLocations","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__EnumValue"
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__Field",
+  "methods":[
+    {"name":"getArgs","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__InputValue",
+  "methods":[
+    {"name":"getDefaultValue","parameterTypes":[] }, 
+    {"name":"getType","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__Schema",
+  "methods":[
+    {"name":"getDirectives","parameterTypes":[] }, 
+    {"name":"getMutationType","parameterTypes":[] }, 
+    {"name":"getQueryType","parameterTypes":[] }, 
+    {"name":"getSubscriptionType","parameterTypes":[] }, 
+    {"name":"getTypes","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.introspection.__Type",
+  "methods":[
+    {"name":"getDescription","parameterTypes":[] }, 
+    {"name":"getEnumValues","parameterTypes":[] }, 
+    {"name":"getFields","parameterTypes":[] }, 
+    {"name":"getInputFields","parameterTypes":[] }, 
+    {"name":"getInterfaces","parameterTypes":[] }, 
+    {"name":"getKind","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getOfType","parameterTypes":[] }, 
+    {"name":"getPossibleTypes","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.apurebase.kgraphql.schema.model.Depreciable",
+  "methods":[
+    {"name":"getDeprecationReason","parameterTypes":[] }, 
+    {"name":"isDeprecated","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.mongodb.WriteConcern",
+  "allPublicFields":true
+},
+{
+  "name":"com.simon.SchemaService",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.simon.SchemaService$$serializer"
+},
+{
+  "name":"com.simon.SchemaService$Companion",
+  "methods":[{"name":"serializer","parameterTypes":[] }]
+},
+{
+  "name":"com.simon.user.dto.EventDto",
+  "methods":[
+    {"name":"<init>","parameterTypes":["java.lang.String","java.time.LocalDateTime","java.time.LocalDateTime","com.simon.user.dto.StatusDto","com.simon.user.dto.EventKindDto","java.lang.String","com.simon.user.dto.PeopleDto","int","kotlin.jvm.internal.DefaultConstructorMarker"] }, 
+    {"name":"getEndDate","parameterTypes":[] }, 
+    {"name":"getId","parameterTypes":[] }, 
+    {"name":"getKind","parameterTypes":[] }, 
+    {"name":"getNote","parameterTypes":[] }, 
+    {"name":"getRequester","parameterTypes":[] }, 
+    {"name":"getStartDate","parameterTypes":[] }, 
+    {"name":"getStatus","parameterTypes":[] }
+  ],
+  "queriedMethods":[{"name":"<init>","parameterTypes":["java.lang.String","java.time.LocalDateTime","java.time.LocalDateTime","com.simon.user.dto.StatusDto","com.simon.user.dto.EventKindDto","java.lang.String","com.simon.user.dto.PeopleDto"] }]
+},
+{
+  "name":"com.simon.user.dto.EventKindDto"
+},
+{
+  "name":"com.simon.user.dto.PeopleDto",
+  "methods":[
+    {"name":"<init>","parameterTypes":["java.lang.String","java.time.LocalDate","java.time.LocalDate","java.lang.String","java.lang.String","java.lang.String","simon.com.user.dto.EmployKindDto","java.lang.String","java.util.List","java.util.List"] }, 
+    {"name":"getCompany","parameterTypes":[] }, 
+    {"name":"getEmployeeKind","parameterTypes":[] }, 
+    {"name":"getFirstName","parameterTypes":[] }, 
+    {"name":"getId","parameterTypes":[] }, 
+    {"name":"getLastName","parameterTypes":[] }, 
+    {"name":"getMatriculeAccount","parameterTypes":[] }, 
+    {"name":"getProjects","parameterTypes":[] }, 
+    {"name":"getStartDate","parameterTypes":[] }, 
+    {"name":"getTeams","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.simon.user.dto.PeopleDto$$serializer"
+},
+{
+  "name":"com.simon.user.dto.PeopleDto$Companion"
+},
+{
+  "name":"com.simon.user.dto.StatusDto"
+},
+{
+  "name":"com.simon.user.entity.EmployKind"
+},
+{
+  "name":"com.simon.user.entity.Event",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.simon.user.entity.Event$$serializer"
+},
+{
+  "name":"com.simon.user.entity.Event$Companion",
+  "methods":[{"name":"serializer","parameterTypes":[] }]
+},
+{
+  "name":"com.simon.user.entity.EventKind"
+},
+{
+  "name":"com.simon.user.entity.People",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getId","parameterTypes":[] }]
+},
+{
+  "name":"com.simon.user.entity.People$$serializer"
+},
+{
+  "name":"com.simon.user.entity.People$Companion",
+  "methods":[{"name":"serializer","parameterTypes":[] }]
+},
+{
+  "name":"com.simon.user.entity.Status"
+},
+{
+  "name":"com.simon.user.schema.EventRequestParam",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.time.LocalDateTime","java.time.LocalDateTime","com.simon.user.dto.StatusDto","com.simon.user.dto.EventKindDto","java.lang.String","com.simon.user.schema.UserRequestParam","int","kotlin.jvm.internal.DefaultConstructorMarker"] }],
+  "queriedMethods":[{"name":"<init>","parameterTypes":["java.lang.String","java.time.LocalDateTime","java.time.LocalDateTime","com.simon.user.dto.StatusDto","com.simon.user.dto.EventKindDto","java.lang.String","com.simon.user.schema.UserRequestParam"] }]
+},
+{
+  "name":"com.simon.user.schema.UserRequestParam",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","simon.com.user.dto.EmployKindDto","java.lang.String","java.util.List","java.util.List","int","kotlin.jvm.internal.DefaultConstructorMarker"] }],
+  "queriedMethods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.lang.String","java.lang.String","simon.com.user.dto.EmployKindDto","java.lang.String","java.util.List","java.util.List"] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.HmacSHA1",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.io.Serializable"
+},
+{
+  "name":"java.lang.Boolean"
+},
+{
+  "name":"java.lang.CharSequence"
+},
+{
+  "name":"java.lang.Comparable"
+},
+{
+  "name":"java.lang.Enum"
+},
+{
+  "name":"java.lang.FunctionalInterface"
+},
+{
+  "name":"java.lang.Iterable"
+},
+{
+  "name":"java.lang.Object"
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.annotation.Documented",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.annotation.Retention",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.annotation.Target",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"java.net.Socket",
+  "methods":[{"name":"setOption","parameterTypes":["java.net.SocketOption","java.lang.Object"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.interfaces.RSAPrivateKey"
+},
+{
+  "name":"java.security.interfaces.RSAPublicKey"
+},
+{
+  "name":"java.time.LocalDate"
+},
+{
+  "name":"java.time.LocalDateTime"
+},
+{
+  "name":"java.time.chrono.ChronoLocalDate"
+},
+{
+  "name":"java.time.temporal.Temporal"
+},
+{
+  "name":"java.time.temporal.TemporalAccessor"
+},
+{
+  "name":"java.time.temporal.TemporalAdjuster"
+},
+{
+  "name":"java.util.Collection"
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.List"
+},
+{
+  "name":"java.util.Map"
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"jdk.net.ExtendedSocketOptions",
+  "fields":[
+    {"name":"TCP_KEEPCOUNT"}, 
+    {"name":"TCP_KEEPIDLE"}, 
+    {"name":"TCP_KEEPINTERVAL"}
+  ]
+},
+{
+  "name":"kotlin.Deprecated",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"level","parameterTypes":[] }, 
+    {"name":"message","parameterTypes":[] }, 
+    {"name":"replaceWith","parameterTypes":[] }
+  ]
+},
+{
+  "name":"kotlin.Metadata",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"bv","parameterTypes":[] }, 
+    {"name":"d1","parameterTypes":[] }, 
+    {"name":"d2","parameterTypes":[] }, 
+    {"name":"k","parameterTypes":[] }, 
+    {"name":"mv","parameterTypes":[] }, 
+    {"name":"pn","parameterTypes":[] }, 
+    {"name":"xi","parameterTypes":[] }, 
+    {"name":"xs","parameterTypes":[] }
+  ]
+},
+{
+  "name":"kotlin.Unit"
+},
+{
+  "name":"kotlin.internal.jdk8.JDK8PlatformImplementations",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"kotlin.jvm.JvmStatic",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"kotlin.jvm.internal.DefaultConstructorMarker"
+},
+{
+  "name":"kotlin.reflect.jvm.internal.ReflectionFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"kotlin.reflect.jvm.internal.impl.resolve.scopes.DescriptorKindFilter",
+  "allPublicFields":true
+},
+{
+  "name":"kotlinx.serialization.SerialName",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"kotlinx.serialization.Serializable",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"with","parameterTypes":[] }]
+},
+{
+  "name":"kotlinx.serialization.descriptors.SerialDescriptor"
+},
+{
+  "name":"kotlinx.serialization.encoding.CompositeEncoder"
+},
+{
+  "name":"kotlinx.serialization.internal.SerializationConstructorMarker"
+},
+{
+  "name":"org.bson.codecs.pojo.annotations.BsonId",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.http4k.graphql.GraphQLRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.util.Map"] }, 
+    {"name":"<init>","parameterTypes":["java.lang.String","java.lang.String","java.util.Map","int","kotlin.jvm.internal.DefaultConstructorMarker"] }
+  ]
+},
+{
+  "name":"org.http4k.graphql.GraphQLRequest$Companion"
+},
+{
+  "name":"org.http4k.lens.BiDiBodyLens"
+},
+{
+  "name":"org.litote.kmongo.Id"
+},
+{
+  "name":"org.litote.kmongo.property.KPropertyPath"
+},
+{
+  "name":"org.litote.kmongo.serialization.SerializationClassMappingTypeService",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.slf4j.Logger"
+},
+{
+  "name":"simon.com.user.dto.EmployKindDto"
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.MD5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.PSSParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.util.ObjectIdentifier"
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificateExtensions"
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+}
+]
