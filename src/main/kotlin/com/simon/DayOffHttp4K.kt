@@ -29,7 +29,9 @@ class EventsApplication : KoinComponent {
 }
 
 fun main() {
-    // this starts the apps with DI made with koin
+    // this starts the apps with DI
+    // made with koin.
+    // will work
     startKoin {
         modules(GraphQlModule().module)
         modules(SettingsModule().module)
