@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.simon.user.schema.GraphQlModuleTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-02-18T08:54:20" hostname="dayoff-events-kn-head-release-zp7wq-from-build-pack-pod" time="2.628">
+  <properties/>
+  <testcase name="provideClient()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.024"/>
+  <testcase name="provideSchema()" classname="com.simon.user.schema.GraphQlModuleTest" time="2.487"/>
+  <testcase name="provideScope()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.002"/>
+  <testcase name="getGraphQlCloudEventProcessor()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.001"/>
+  <testcase name="provideHttpGraphqlRequestHandler()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.001"/>
+  <testcase name="provideGraphqlApp()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.002"/>
+  <testcase name="getEventPublisher()" classname="com.simon.user.schema.GraphQlModuleTest" time="0.1"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
